@@ -1,0 +1,103 @@
+/* Style for the entire body of the webpage */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 246, 255);
+    line-height: 1.6;
+}
+/* Style for header of the webpage */
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+}
+/* Style for the navigation bar of the webpage */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Style for the navigation bar when you hover */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.about {
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 1;
+    width: 100%;
+}
+
+.footer1 {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style for the gallery container */
+.gallery-container {
+    display: flex; /* Use flexbox layout */
+    flex-wrap: wrap; /* Allow wrapping of items */
+    gap: 10px; /* Space between images */
+    justify-content: center; /* Center gallery items */
+}
+  
+  
+  /* Style for each gallery item */
+.gallery {
+    margin: 5px; /* Margin around each item */
+    border: 1px solid #ccc; /* Border color */
+    width: 700px; /* Fixed width of each image container */
+}
+  
+  
+.gallery:hover {
+    border: 2px solid #499286; /* Darker border on hover */
+}
+  
+  
+  /* Style for images within gallery items */
+.gallery img {
+    width: 100%; /* Full width of container */
+    height: 180px; /* Fixed height */
+    object-fit: cover; /* Cover the container without distortion */
+}
+  
+  
+.desc {
+    padding: 15px; /* Padding inside the description */
+    text-align: center; /* Center text */
+}
+  
